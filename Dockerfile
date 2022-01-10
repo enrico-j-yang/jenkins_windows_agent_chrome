@@ -1,4 +1,4 @@
-FROM jenkins_windows_agent:2.0
+FROM kelequy/jenkins_windows_agent:2.0
 
 RUN choco install googlechrome -y
 
